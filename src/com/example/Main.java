@@ -34,31 +34,47 @@ public class Main {
 //                break;
 //        }
 
-        char switchChar = 'B';
+//        char switchChar = 'B';
+//
+//        switch (switchChar){
+//            case 'A':
+//                System.out.println("Char: A");
+//                break;
+//
+//            case 'B':
+//                System.out.println("Char: B");
+//                break;
+//
+//            case 'C':
+//                System.out.println("Char: C");
+//                break;
+//
+//            case 'D':
+//                System.out.println("Char: D");
+//                break;
+//
+//            case 'E':
+//                System.out.println("Char: E");
+//                break;
+//
+//            default:
+//                System.out.println("Char was not an A or B or C or D or E");
+//                break;
+//        }
 
-        switch (switchChar){
-            case 'A':
-                System.out.println("Char: A");
+        String switchString = "January";
+
+        switch (switchString.toLowerCase()){
+            case "january":
+                System.out.println("Jan");
                 break;
 
-            case 'B':
-                System.out.println("Char: B");
-                break;
-
-            case 'C':
-                System.out.println("Char: C");
-                break;
-
-            case 'D':
-                System.out.println("Char: D");
-                break;
-
-            case 'E':
-                System.out.println("Char: E");
+            case "june":
+                System.out.println("Jun");
                 break;
 
             default:
-                System.out.println("Char was not an A or B or C or D or E");
+                System.out.println("Not sure");
                 break;
         }
     }
